@@ -30,21 +30,21 @@ main{
 
 main > section {
     flex: 1;
-    text-align: center;
+    text-align: left;
 }
 
 .formula-img{
-    height: 200px;
+    height: 500px;
     background-position: center;
     background-size: cover;
 }
 
 .img-luas {
-   background-image: url(https://idschool.net/wp-content/uploads/2018/03/Rumus-Luas-Segitiga.png);
+   background-image: url(https://i2.wp.com/cilacapklik.com/wp-content/uploads/2022/07/Rumus-Segitiga-Sama-Kaki.png)
 }
 
 .img-keliling {
-    background-image: url(https://www.doyanblog.com/wp-content/uploads/2023/06/rumus-keliling-segitiga-siku-siku-200x135.jpg) ;
+    background-image: url(https://i2.wp.com/cilacapklik.com/wp-content/uploads/2022/07/Rumus-Segitiga-Sama-Kaki.png)
 }
 
 /* Form Style */
@@ -63,6 +63,7 @@ button {
     border: none;
     padding: 8px;
     border-radius: 8px;
+    text-align: center;
 }
 
 footer{
