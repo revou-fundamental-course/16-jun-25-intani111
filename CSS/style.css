@@ -69,3 +69,10 @@ button {
 footer{
     text-align: center;
 }
+
+/* responsive design */
+@media only screen and (max-width: 480px) {
+    main {
+        flex-direction: column;
+    }
+}
