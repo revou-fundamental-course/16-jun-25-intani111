@@ -14,14 +14,12 @@
     <header>
        <h1>Welcome to My Project</h1>
 
-       <p>Hai All, Welcome to My Lil Project</p>
-
-        <p>A simple web app that works to calculate the Area and Perimeter values of flat shapes</p>
+       <p id="welcome-speech">Hai All, Welcome to My Lil Project A simple web app that works to calculate the Area and Perimeter values of flat shapes</p>
       
         <!-- Navigation -->
        <nav> 
-        <a class="bg-aliceblue" href="">Segitiga</a>
-        <a class="bg-antique-white" href="">Jajar Genjang</a>
+        <a class="bg-aliceblue" href="#" onclick="greet()">Segitiga</a>
+        <a class="bg-antique-white" href="#">Jajar Genjang</a>
        <nav>
 
     </header>
@@ -64,7 +62,7 @@
             </div>
               
            <div>
-              <button>Hitung</button>
+              <button type="button" id="calc-luas" onclick="calcluas()">Hitung</button>
            </div>
            </form>
 
@@ -119,8 +117,10 @@
     <footer>
         <p>&copy; 2025 Wenny. All right reserved.</p>
     </footer>
+ 
+    <!-- Javascript External -->
+    <script src="js\script.js"></script>
     
-     <scriptsrc="script.js"></script>
 </body>
 
 </html>
