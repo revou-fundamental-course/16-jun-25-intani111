@@ -16,11 +16,12 @@
 
        <p id="welcome-speech">Welcome To My Lil Project</p>
         
-        </p>Welcome to My Lil Project A simple web app that works to calculate the Area and Perimeter values of flat shapes</p>
+        </p>A simple web app that works to calculate the Area and Perimeter values of flat shapes</p>
       
         <!-- Navigation -->
        <nav> 
-        <a class="bg-aliceblue" href="#" onclick="greet()">Segitiga</a>
+        <a class="bg-aliceblue" href="#" onclick="greet1()">Segitiga</a>
+        <a class="bg-aliceblue" href="#" onclick="greet2()">Jajar Genjang</a>
        <nav>
 
     </header>
@@ -34,7 +35,7 @@
             </header>
 
             <!-- Konten Luas -->
-            <div class="formula-img img-luas"></div>
+            <div class="formula-img img-luassegitiga"></div>
         
                  <p>Rumus Luas Segitiga Yaitu: </p>
 
@@ -63,8 +64,8 @@
             </div>
               
            <div>
-              <button type="button" id="calc-luas" onclick="calcluas()">Hitung</button>
-              <p id="hasilLuas"></p>
+              <button type="button" id="calc-luas" onclick="calcluasseg()">Hitung</button>
+              <p id="hasilLuassegitiga"></p>
               <button type="button" id="reset-luas" onclick="resetCalculator()">Reset</button>
            </div>
            </form>
@@ -78,7 +79,7 @@
             </header>
 
             <!-- Konten Keliling -->
-            <div class="formula-img img-keliling"></div>
+            <div class="formula-img img-kelilingsegitiga"></div>
 
                  <p>Rumus Keliling Segitiga Yaitu: </p>
                  <p>K= S1 + S2 + S3</p>
@@ -110,9 +111,87 @@
             </div>
 
            <div>
-            <button type="button" id="calc-kel" onclick="calkel()">Hitung</button>
-            <p id="hasilKeliling"></p>
+            <button type="button" id="calc-kel" onclick="calkelseg()">Hitung</button>
+            <p id="hasilKelilingsegitiga"></p>
               <button type="button" id="reset-kel" onclick="resetCalculator()">Reset</button>
+           </div>
+           </form>
+         </section>
+
+        <!-- Jajar Genjang -->
+         <section>
+             <header>
+                <h2>Luas Jajar Genjang</h2>
+            </header>
+
+        <!-- Konten Keliling -->
+            <div class="formula-img img-luasjajargenjang"></div>
+
+                 <p>Rumus Luas Jajar Genjang Yaitu: </p>
+                 <p>L = a x t</p>
+                 <p>Dimana:</p>
+                 <p>L = Luas</p>
+                 <p>a = Alas</p>
+                 <p>t = Tinggi</p>
+
+        
+        <!-- Form Luas Jajar Genjang -->
+    <form>
+        <header>
+            <h2>Hitung Luas Jajar Genjang</h2>
+        </header>
+        <div>
+            <label for="alasJajar">Alas</label>
+            <input type="number" id="alasJajar" name="alasJajar" placeholder="Masukkan Alas Jajar Genjang" required>
+        </div>
+        <div>
+            <label for="tinggiJajar">Tinggi</label>
+            <input type="number" id="tinggiJajar" name="tinggiJajar" placeholder="Masukkan Tinggi Jajar Genjang" required>
+        </div>
+          
+        <div>
+            <button type="button" id="calc-luas-jajar" onclick="calcluasjajar()">Hitung</button>
+            <p id="hasilLuasJajarGenjang"></p>
+            <button type="button" id="reset-luas-jajar" onclick="resetCalculator()">Reset</button>
+        </div>
+    </form>
+         </section>
+
+         <section>
+             <header>
+                <h2>Keliling Jajar Genjang</h2>
+            </header>
+
+            <!-- Konten Keliling -->
+            <div class="formula-img img-kelilingjajargenjang"></div>
+
+                 <p>Rumus Keliling Jajar Genjang Yaitu: </p>
+                 <p>K= 2 x (a + b)</p>
+                 <p>Dimana:</p>
+                 <p>K = Keliling</p>
+                 <p>a = Sisi A</p>
+                 <p>b = Sisi B</p>
+
+            <!-- Form keliling -->
+           <form>
+             <header>
+                <h2>Hitung Keliling Jajar Genjang</h2>
+            </header>
+
+            <div>
+                <label for="sisiAJajar">Sisi A</label>
+                <input type="number" id="sisiAJajar" name="sisiAJajar" placeholder="Masukkan Sisi A Jajar Genjang" required>
+            </div>
+
+            <div>
+                <label for="sisiBJajar">Sisi B</label>
+                <input type="number" id="sisiBJajar" name="sisiBJajar" placeholder="Masukkan Sisi B Jajar Genjang" required>
+            </div>
+
+           <div>
+              <button type="button" id="calc-kel-jajar" onclick="calkeljajar()">Hitung</button>
+              <p id="hasilKelilingJajarGenjang"></p>
+              <button type="button" id="reset-keliling-jajar" onclick="resetCalculator()">Reset</button>
            </div>
            </form>
          </section>

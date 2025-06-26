@@ -25,7 +25,8 @@ nav a {
 
 main{
     display: flex;
-    gap: 32px;
+    gap: 50px;
+    flex-direction: column;
 }
 
 main > section {
@@ -34,17 +35,25 @@ main > section {
 }
 
 .formula-img{
-    height: 300px;
+    height: 500px;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
 }
 
-.img-luas {
+.img-luassegitiga{
    background-image: url(https://i2.wp.com/cilacapklik.com/wp-content/uploads/2022/07/Rumus-Segitiga-Sama-Kaki.png)
 }
 
-.img-keliling {
+.img-kelilingsegitiga {
     background-image: url(https://i2.wp.com/cilacapklik.com/wp-content/uploads/2022/07/Rumus-Segitiga-Sama-Kaki.png)
+}
+
+.img-luasjajargenjang {
+    background-image: url(https://imgx.sonora.id/crop/0x0:0x0/700x465/photo/2023/04/11/sifat-sifat-jajar-genjangjpg-20230411014257.jpg)
+}
+
+.img-kelilingjajargenjang{
+    background-image: url(https://imgx.sonora.id/crop/0x0:0x0/700x465/photo/2023/04/11/sifat-sifat-jajar-genjangjpg-20230411014257.jpg)
 }
 
 /* Form Style */
